@@ -8,7 +8,126 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/styles.min.css?h=8470f1be561feed4b1d7f72e211e4304">
+
+    <style>
+        #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #F67280;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #C06C84;
+  padding: 20px;
+}
+
+#contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #6C5B7B;
+}
+
+#project-image {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.h1, h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#navbar {
+  background-color: #F8B195;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+@media (min-width: 28.75em) {
+  #navbar {
+    justify-content: center;
+  }
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+#projects {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+#navcol-1 {
+  display: flex;
+  margin-right: 2rem;
+}
+
+#project-title {
+  font-weight: 700;
+  font-size: large;
+}
+
+#project-heading {
+  margin-top: 50px;
+  padding: 15px;
+}
+
+#footer {
+}
+
+.footer-basic {
+  background-color: #355C7D;
+}
+
+#profile-icon {
+  font-size: 50px;
+}
+    </style>
 </head>
+
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md fixed-top" id="navbar">
